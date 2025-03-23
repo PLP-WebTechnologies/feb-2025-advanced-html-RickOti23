@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Week 2 assignment</title>
+        </head>
+        <body>
+            <h1>Read Books</h1>
+            <h3>Shakespear</h6>
+            <ol type="i">
+                <li>Hamlet</li>
+                <li>Mackbeth</li>
+                <li>Measure for Measure</li>
+                <li>Julius Caesar</li>
+                <li>King Lear</li>
+            </ol>
+            <h3>Book club Inspo</h3>
+            <img src="https://images.pexels.com/photos/10288924/pexels-photo-10288924.jpeg?auto=compress&cs=tinysrgb&w=600" alt="classics" width="350" height=""550>
+            <h3>Book club members</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Emails</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rickens</td>
+                        <td>Mombasa</td>
+                        <td>+366776</td>
+                        <td>r@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Walter</td>
+                        <td>Nakuru</td>
+                        <td>+36676</td>
+                        <td>w@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Otieno</td>
+                        <td>Kisumu</td>
+                        <td>+3676</td>
+                        <td>o@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jack</td>
+                        <td>Kiambu</td>
+                        <td>+66776</td>
+                        <td>j@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>George</td>
+                        <td>Nairobi</td>
+                        <td>+3566776</td>
+                        <td>g@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Registration Form</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="MemberName" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name ="email" placeholder="Member_email" required><br><br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter_Pin" required minlength="5"><br><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <!--Drop down-->
+                <label for="address">Select Address:</label>
+                <select id="address" name="address">
+                    <option>--Select Address--</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Kiambu">Kiambu</option>
+                    <option value="Nairobi">Nairobi</option>
+                </select><br><br>
+
+                <!--Radio Buttons-->
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="Male">Male
+                <input type="radio" id="gender" name="gender" value="Female">Female
+                <br><br>
+
+                <!--Checkboxes-->
+                <label for="interests">Interests:</label>
+                <input type="checkbox" id="interests" name="interests" value="Philosophy">Philosophy
+                <input type="checkbox" id="interests" name="interests" value="History">History
+                <input type="checkbox" id="interests" name="interests" value="Thriller">Thriller
+                <input type="checkbox" id="interests" name="interests" value="Theology">Theology
+                <br><br>
+            </form>
+        </body>
+    </html>
